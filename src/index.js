@@ -2,8 +2,8 @@ require('dotenv').config();
 
 const http = require('http');
 
-// const port = process.env.PORT;
-const port = 4000;
+const port = process.env.PORT;
+// const port = 4000;
 
 let count = 0;
 
